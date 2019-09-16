@@ -1,0 +1,285 @@
+/*
+* @Author: hp
+* @Date:   2019-09-04 19:39:39
+* @Last Modified by:   hp
+* @Last Modified time: 2019-09-11 19:28:12
+*/
+section{
+}
+.yuding-top{
+	position: relative;
+    overflow: hidden;
+    height: 317px;
+    text-align: center;
+}
+.yuding-top img{
+   display: inline-block;
+   width: 1920px;
+   margin: 0 -100%;
+}
+.ctitle{
+	position: absolute;
+	top: 20%;
+	width: 100%;
+}
+.ctitle-txt{
+	width: 94%;
+	margin: 0px auto;
+	border-bottom: 1px solid #7e6762;
+    padding-bottom: 14px;
+    height: 120px;
+}
+.full-txt{
+	list-style: none;
+	/* overflow: hidden; */
+
+}
+.full-txt li{
+	float: left;
+	width: 25%;
+}
+.full-txt a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+    text-decoration: none;
+    position: relative;
+}
+.a-before::before{
+	content: '';
+    width: 1px;
+    height: 16px;
+    position: absolute;
+    bottom: -22px;
+    right: 0;
+    display: block;
+    background: #7e6762;
+}
+.alist-box::after{
+	content: '';
+	display: block;
+	width: 95px;
+    height: 3px;
+    background: #ff9a00;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -47.5px;
+}
+.wo::after{
+	content: '';
+	display: block;
+	width: 95px;
+    height: 3px;
+    background: #ff9a00;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -47.5px;
+}
+.full-txt i{
+	background: url('../images/info_tab_banner_ico.png') no-repeat;
+    display: block;
+    margin: 0 auto;
+	width: 60px;
+	height: 60px;
+}
+.full-txt .i01{}
+.full-txt .i02{
+	background-position: -60px 0px;
+}
+.full-txt .i03{
+	background-position: -120px 0px;
+}
+.full-txt .i04{
+	background-position: -180px 0px;
+}
+.full-txt span{
+	display: block;
+	font-size: 18px;
+    color: #fff;
+    padding: 10px 0px;
+    min-width: 93px;
+}
+.ha.i01{
+	background-position: 0px -60px;
+}
+.ha.i02{
+	background-position: -60px -60px;
+}
+.ha.i03{
+	background-position: -120px -60px;
+}
+.ha.i04{
+	background-position: -180px -60px;
+}
+.haa.i01{
+	background-position: 0px -60px;
+}
+.haa.i02{
+	background-position: -60px -60px;
+}
+.haa.i03{
+	background-position: -120px -60px;
+}
+.haa.i04{
+	background-position: -180px -60px;
+}
+.yd_bto{
+	width: 100%;
+}
+.yd_wrap{
+	width: 94%;
+	margin: 0px auto;
+	position: relative;
+	top: -90px;
+	background-color: #fff;
+	padding: 50px 0px 52px 0px;
+}
+.liebiao{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.liebiao p{
+	display: block;
+	position: relative;
+	width: 100%;
+	background-color: #f7f7f7;
+	line-height: 3.6;
+}
+.left-p{
+    margin-bottom: 18px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.liebiao label{
+    padding-left: 10px;
+    top: 0px;
+    color: #858558;
+    font-weight: normal;
+    display: inline-block;
+}
+.left-p select{
+	display: inline-block;
+	outline: none;
+	width: 74%;
+    border-radius: 0px;
+    border-color: rgb(169, 169, 169);
+    border: 0px;
+    background-color: #f7f7f7;
+}
+.right-p{
+	margin-left: 0px;
+    margin-right: 0px;
+}
+.left-p select option{
+	font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.liebiao input{
+	margin: 0;
+    padding: 0;
+    color: #5a5a5a;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.txtarea{
+	height: 120px;
+	overflow: hidden;
+}
+.beizhu{
+	position: absolute;
+	top: 15px;
+}
+#textarea{
+	outline: none;
+	position: absolute;
+	left: 75px;
+	width: 75%;
+    height: 6.7em;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    color: #5a5a5a;
+    background-color: transparent;
+    border: none;
+}
+.yzm input{
+	width: 30%;
+}
+.yzm img{
+	width: 100px;
+	height: 30px;
+}
+.yzm em{
+	color: red;
+}
+.btn-yd{
+	width: 100%;
+	text-align: center;
+}
+.btn-yd button{
+	border: 0px;
+	color: #fff;
+	display: inline-block;
+    width: 130px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-yd button:nth-of-type(1){
+	background-color: #f37020;
+}
+.btn-yd button:nth-of-type(2){
+	background-color: #909090;
+}
+
+
+@media (min-width: 760px){
+	.right-p{
+		margin-left: 0px;
+	    margin-right: 0px;
+	}
+	.left-p{
+		margin-left: 0px;
+	    margin-right: 0px;
+	}
+}
+@media (min-width: 992px){}
+@media (min-width: 1024px){
+	section{
+		padding-top: 97px;
+	}
+	.ctitle-txt{
+		width: 1200px;
+	}
+	.yd_wrap{
+		width: 1200px;
+		padding-right: 78px;
+	}
+	.yd_wrap{
+        padding: 50px 40px 52px 40px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

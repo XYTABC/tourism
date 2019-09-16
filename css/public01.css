@@ -1,0 +1,25 @@
+/*
+* @Author: hp
+* @Date:   2019-09-03 16:23:16
+* @Last Modified by:   hp
+* @Last Modified time: 2019-09-04 14:08:21
+*/
+.header{
+	background-color: #fff;
+}
+.header .head a{
+	color: #606060;
+}
+.wrap-left a{
+    background: url('../images/logo.png') no-repeat;
+}
+.header .head .wrap-left span{
+	color: #606060;
+}
+.san-1 i{
+	background-color: #ff9e19;
+}
+.hei{
+	height: 100%;
+	z-index: 2;
+}

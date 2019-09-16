@@ -1,0 +1,291 @@
+/*
+* @Author: hp
+* @Date:   2019-09-04 15:51:24
+* @Last Modified by:   hp
+* @Last Modified time: 2019-09-04 19:49:04
+*/
+section{
+	width: 100%;
+	overflow: hidden;
+}
+.food-wrap{
+
+}
+.food-part01{
+	width: 100%;
+	margin-top: 0px; 
+	position: relative;
+	height: 325px;
+}
+.food-part01 img{
+	height: 100%;
+	width: 1920px;
+    max-width: none;
+    position: relative;
+    left: 50%;
+    margin-left: -960px;
+}
+.fp-top{
+	position: absolute;
+	top: 80px;
+	text-align: center;
+	width: 100%;
+}
+.fp-top h2{
+	color: #fff;
+    margin-bottom: 20px;
+    font-size: 46px;
+    font-weight: normal;
+    font-family: '宋体华文';
+    line-height: 1.7;
+    position: relative;
+}
+.fp-top h2::after{
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+    left: 50%;
+    margin-left: -24px;
+    width: 48px;
+    height: 1px;
+    background-color: #ffffff;
+}
+.fp-top ul{
+	overflow: hidden;
+	list-style: none;
+	text-align: center;
+	width: 400px;
+	display: inline-block;
+}
+.fp-top ul li{
+	float: left;
+	text-align: center;
+	width: 100px;
+}
+.fp-top a{
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+}
+.fp-top a:hover{
+	color: #ff9e19;
+}
+.food-part02{
+	width: 96%;
+	margin: 0px auto;
+}
+.food-part02::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.fl-right{
+	float: right;
+	padding: 0px;
+	margin: 50px 0px;
+	overflow: hidden;
+}
+.fl-right img{
+	width: 100%;
+}
+.fl-left{
+	float: left;
+	margin: 50px 0px;
+	background-color: #f9b300;
+	padding: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    padding-left: 3.75%;
+    background: #f9b300 url('../images/hotel04.jpg') right 70px no-repeat;
+}
+.fl-01{
+    display: none;
+}
+.fl-02{
+	padding-left: 4px;
+    width: 290px;
+    color: #ffffff;
+}
+.chi{
+	padding-top: 5px;
+    font-size: 28px;
+}
+.des{
+	font-size: 12px;
+    font-family: Arial;
+    line-height: 1.4;
+}
+._type{
+	font-size: 17px;
+    line-height: 2.2;
+    text-transform: uppercase;
+}
+.food-part03{
+	width: 94%;
+	margin: 0px auto;
+	
+}
+.part03food{
+	width: 100%;
+	background-image: url('../images/hotel002.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding-top: 50px;
+    background-color: #edf3f3;
+}
+.food-bg{
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/hotel27.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    position: relative;
+    padding-bottom: 56.25%;
+}
+.fp03{
+	padding: 0px;
+	padding-right: 2%;
+	padding-bottom: 8%;
+}
+._bg-top{
+	padding-top: 15px;
+    padding-left: 20px;
+    text-align: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.nhts{
+	font-size: 25px;
+    font-family: '宋体华文';
+    color: #f9b300;
+}
+._bts{
+	width: 100px;
+    height: 31px;
+    background: url('../images/hotel06.png') 0 0 no-repeat;
+}
+._bg-bto{
+	position: absolute;
+	width: 82%;
+	right: 0;
+    bottom: 0;
+}
+.rect{
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+}
+.rect img{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.foot-txt{
+	width: 100%;
+	padding: 17px 20px 16px 25px;
+    background-color: #ffffff;
+}
+.ft-box{
+	position: relative;
+}
+.ft01{
+	color: #000;
+	font-size: 20px;
+
+}
+.ft02{
+	font-size: 14px;
+    color: #5a5a5a;
+    width: 80%;
+    line-height: 1.7;
+    white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.ft03{
+	position: absolute;
+	right: 0px;
+	font-size: 14px;
+    color: #6e560b;
+    bottom: 0px;
+}
+.fp03 a:hover .ft03{
+	text-decoration: underline;
+	color: #6e560b;
+}
+.fp03 a{
+	text-decoration: none;
+}
+.load-more{
+	width: 100%;
+	padding-top: 35px;
+	padding-bottom: 25px;
+}
+.load-more a{
+	height: 42px;
+    width: 300px;
+    position: relative;
+    line-height: 42px;
+    border: 1px solid #cbcbcb;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    display: block;
+    left: 50%;
+    margin-left: -150px;
+}
+.load-more a p{
+	margin-left: 20%;
+}
+.load-more a div{
+	position: absolute;
+	top: -15px;
+	left: 50%;
+	margin-top: 15px;
+    margin-left: 20%;
+}
+
+
+
+
+
+
+
+@media (min-width: 760px){
+	.fl-right img{
+		height: 390px;
+		width: 735px;
+	}
+	.fl-01{
+    	display: block;
+	}
+	.fl-left{
+		padding-top: 70px;
+		padding-bottom: 80px;
+	}
+	.nhts{
+		font-size: 32px;
+	}
+}
+@media (min-width: 992px){}
+@media (min-width: 1024px){
+	.food-part01{
+		margin-top: 100px;
+	}
+	.food-part02{
+		width: 1200px;
+	}
+	.food-part03{
+		width: 1200px;
+	}
+	.fp03{
+		padding-bottom: 2%;
+	}
+}
